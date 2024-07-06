@@ -10,6 +10,7 @@ function App() {
       <div className="flex flex-col lg:flex-row xl:px-[220px]">
       <Releases></Releases>
       <ReleasesNotes></ReleasesNotes>
+        <div className="px-[35px] w-full text-alternative mt-[40px] xl:mt-[80px] xl:block hidden"></div>
       </div>
     </main>
   )
