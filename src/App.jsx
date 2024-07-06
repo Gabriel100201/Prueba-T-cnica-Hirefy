@@ -7,10 +7,10 @@ function App() {
   return (
     <main className="mb-[100px]">
       <Header></Header>
-      <div className="flex flex-col lg:flex-row xl:px-[220px]">
+      <div className="flex flex-col xl:flex-row xl:px-[220px]">
       <Releases></Releases>
       <ReleasesNotes></ReleasesNotes>
-        <div className="px-[35px] w-full text-alternative mt-[40px] xl:mt-[80px] xl:block hidden"></div>
+        <div className="px-[35px] w-full mt-[40px] xl:block hidden"></div>
       </div>
     </main>
   )
