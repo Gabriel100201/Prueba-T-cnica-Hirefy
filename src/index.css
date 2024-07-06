@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Filter Selector */
+/* .custom-select-container {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.custom-select-container::after {
+  content: "";
+  background-image: url('assets/Arrow.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 18px;
+  top: 60%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+ */
+
+/* Al releases items */
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
